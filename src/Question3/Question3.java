@@ -30,7 +30,7 @@ import javafx.stage.Stage;
  *
  * @author Mahmoud Abusaqer
  */
-public class Question3 extends Application{
+public class Question3 extends Application {
 
     Stage stage4;
     ListView<Student> listView;
