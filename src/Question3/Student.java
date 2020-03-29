@@ -7,7 +7,7 @@ package Question3;
 
 /**
  *
- * @author hp
+ * @author Mahmoud Abusaqer
  */
 public class Student {
 
@@ -58,13 +58,5 @@ public class Student {
     @Override
     public String toString() {
         return String.format("%-5d %-25s %-25s %-2.2f", id, name, major, grade);
-//        return this.id + " " + this.name + " " + this.major + " " + this.grade;
     }
-//    public String toString() {
-////        return String.format("{name=%s, age=%d}", name, id);
-////        return getId() + " " + getName() + " " + getMajor() + " " + getGrade();
-//        return id + " " + name + " " + major + " " + grade;
-//
-////        return String.format("%-5d %-25s %-25s %-2.2f", id, name, major, grade);
-//    }
 }
